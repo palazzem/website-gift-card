@@ -1,3 +1,22 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "http://localhost"
+languageCode = "it-it"
+defaultContentLanguage = 'it'
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  defaultTheme = "dark"
+  rssFullText = true
+
+[languages]
+  [languages.it]
+    title = "Un regalo alla cinci"
+    copyright = "Scritto da un cincillino con amore &#10084;&#65039;"
+    writtenBy = "Preparato da"
+    readMore = "Apri il biglietto!"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.it.params.logo]
+      logoText = "un regalo alla cinci"
+      logoHomeLink = "/"
