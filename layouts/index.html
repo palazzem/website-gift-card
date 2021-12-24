@@ -46,10 +46,6 @@
         </span>
       {{ end }}
 
-      {{ if .Params.Cover }}
-        {{ partial "postcover.html" . }}
-      {{ end }}
-
       <div class="post-content">
         {{ with .Description }}
           {{ . | markdownify }}
